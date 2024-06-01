@@ -6,7 +6,7 @@ const Particle = dynamic(() => import("../Particle"), {
 
 export default function HomeSection1() {
   return (
-    <section className="relative h-[70vh] px-4 md:px-0 overflow-hidden w-full py-28 ">
+    <section className="relative h-[80vh] px-4 md:px-0 overflow-hidden w-full py-28 ">
       <div className="relative mx-auto flex h-full max-w-7xl flex-col items-start justify-center space-y-4">
         <h1 className="text-center text-xl font-bold text-green-600 md:text-2xl">
           Experience-Led, Digital-First

@@ -2,14 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-.bg {
-  background: url("https://v3.cdnpk.net/videvo_files/video/free/2014-07/large_preview/Northernlights2_HD.mp4");
-  background-size: cover;
-  width: 100%;
-  height: 100%;
-  @apply relative;
-}
-
 .award-bg {
   background: url("/awards-bg.png");
   background-repeat: no-repeat;
