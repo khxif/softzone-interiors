@@ -11,7 +11,7 @@ export default function HomeSection1() {
         <h1 className="text-center text-xl font-bold text-green-600 md:text-2xl">
           Experience-Led, Digital-First
         </h1>
-        <p className="max-w-md">
+        <p className="md:max-w-md">
           Experience design has been at the core of Pico&apos;s solutions for
           over 50 years, delivering effective engagement across almost every
           imaginable industry and both business and consumer audiences. We
