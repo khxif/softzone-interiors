@@ -4,7 +4,7 @@ import { FaYoutube } from "react-icons/fa6";
 
 export default function Footer() {
   return (
-    <footer className="h-screen bg-black w-full pt-36 pb-4">
+    <footer className="h-[75vh] md:h-screen bg-black w-full pt-12 md:pt-36 pb-4">
       <div className="max-w-6xl mx-auto px-4 md:px-0 flex flex-col justify-between h-full">
         <div className="space-y-10 ">
           <span className="flex items-center space-x-12 text-2xl md:text-4xl font-light">
