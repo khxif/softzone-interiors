@@ -9,7 +9,7 @@ export default function HomeSection2() {
   const { scrollYProgress } = useScroll({
     target: ref,
   });
-  const scale = useTransform(scrollYProgress, [0, 0.4], [1,0.8]);
+  const scale = useTransform(scrollYProgress, [0, 0.4], [1, 0.8]);
   return (
     <section
       ref={ref}
@@ -31,14 +31,15 @@ export default function HomeSection2() {
         />
       </motion.div>
 
-      <div className="flex max-w-md flex-col space-y-4">
-        <h1 className="text-xl text-green-600 md:text-2xl">We are global</h1>
+      <div className="flex max-w-md flex-col space-y-4 pb-16">
+        <h1 className="text-xl text-green-600 md:text-2xl">Our Mission</h1>
         <p>
-          The Pico Group is a world-wide network of agencies in 36 cities across
-          the world, each providing local understanding to a global approach to
-          activating brands. For over 50 years Pico has leveraged the platforms
-          of its agencies and the expertise of the best people to become one of
-          the most effective global, independent, agency networks in the world.
+          For us at SoftZone, designing environments that uplift, soothe, and
+          delight comes naturally. We collaborate closely with you to fully
+          understand your requirements and preferences, and then our team of
+          skilled designers and artisans creates custom solutions that go above
+          and beyond. In every project, we are your dependable partner since we
+          are dedicated to quality, innovation, and client satisfaction.
         </p>
       </div>
     </section>

@@ -8,7 +8,7 @@ export default function HomeHero() {
       poster="/bg.mp4"
       className="h-screen w-full object-cover"
     >
-      <source src="/bg.mp4" type="video/mp4" />
+      <source src="/video.mp4" type="video/mp4" />
     </video>
   );
 }
